@@ -63,7 +63,7 @@ cc_defaults {
     ldflags: ["-Wl,--gc-sections"],
 
     product_variables: {
-        aosp: {
+        gabuters: {
             target_uses_prebuilt_dynamic_partitions: {
                 cflags: ["-DTARGET_USES_PREBUILT_DYNAMIC_PARTITIONS"],
             },
@@ -189,7 +189,7 @@ cc_library_static {
         "payload_consumer/fec_file_descriptor.cc",
     ],
     product_variables: {
-        aosp: {
+        gabuters: {
             target_uses_prebuilt_dynamic_partitions: {
                 cflags: ["-DTARGET_USES_PREBUILT_DYNAMIC_PARTITIONS"],
             },
@@ -519,7 +519,7 @@ cc_library_static {
         "payload_generator/xz_android.cc",
     ],
     product_variables: {
-        aosp: {
+        gabuters: {
             target_uses_prebuilt_dynamic_partitions: {
                 cflags: ["-DTARGET_USES_PREBUILT_DYNAMIC_PARTITIONS"],
             },
